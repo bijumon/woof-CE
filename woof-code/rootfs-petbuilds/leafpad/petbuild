@@ -1,5 +1,5 @@
 download() {
-    [ -f leafpad-0.8.17.tar.gz ] || wget -t 3 -T 60 https://savannah.nongnu.org/download/leafpad/leafpad-0.8.17.tar.gz
+    [ -f leafpad-0.8.17.tar.gz ] || wget -t 3 -T 60 https://download-mirror.savannah.gnu.org/releases/leafpad/leafpad-0.8.17.tar.gz
 }
 
 build() {
